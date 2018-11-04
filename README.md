@@ -8,14 +8,13 @@ Simple GPS displaying system
 
 ## Examples
 
-  sqlite3 /var/www/net_octonix_sight/database/default.db "SELECT * FROM coordinates WHERE latitude='';"
+    sqlite3 /var/www/net_octonix_sight/database/default.db "SELECT * FROM coordinates WHERE latitude='';"
 
-  sqlite3 /var/www/net_octonix_sight/database/default.db "DELETE FROM coordinates WHERE latitude='';"
-
+    sqlite3 /var/www/net_octonix_sight/database/default.db "DELETE FROM coordinates WHERE latitude='';"
 
 ## Links
-http://wiki.mikrotik.com/wiki/Manual:System/GPS
-http://wiki.mikrotik.com/wiki/Manual:GPS-tracking
+* http://wiki.mikrotik.com/wiki/Manual:System/GPS
+* http://wiki.mikrotik.com/wiki/Manual:GPS-tracking
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
