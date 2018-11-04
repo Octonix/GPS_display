@@ -7,9 +7,9 @@ Simple GPS displaying system
 - [ ] Сделать групповой просмотр снапшотов на стартовой странице с автообновлением
 
 ## Examples
-
+#### Просмотреть все пустые записи
     sqlite3 /var/www/net_octonix_sight/database/default.db "SELECT * FROM coordinates WHERE latitude='';"
-
+#### Удалить все пустые записи
     sqlite3 /var/www/net_octonix_sight/database/default.db "DELETE FROM coordinates WHERE latitude='';"
 
 ## Links
